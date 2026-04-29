@@ -91,6 +91,47 @@ For private quotas request a sandbox key at <https://getinopay.com/fr/developers
 - Jackson 2.16+ (transitively included)
 - Uses the JDK's built-in `java.net.http.HttpClient` — no OkHttp dependency
 
+## Why Inopay
+
+Inopay is the [investment infrastructure for African capital markets](https://getinopay.com/fr/why-inopay) — BRVM (WAEMU), BVMAC (CEMAC), GSE (Ghana). Mobile Money operators, banks and licensed SGIs embed the regional exchanges into their apps via this SDK.
+
+- Use case **Mobile Money operators** → see [Pour opérateurs MoMo](https://getinopay.com/fr/momo)
+- Use case **Banks** → see [Pour banques](https://getinopay.com/fr/banks)
+- Use case **SGI** → see [Pour SGI](https://getinopay.com/fr/sgi)
+- White-label deployment → see [White-label](https://getinopay.com/fr/white-label)
+
+## Regulatory framework
+
+Inopay is a technical intermediation provider. Orders are executed exclusively by [AMF-UMOA-licensed SGIs](https://getinopay.com/fr/legal/regulatory-references). The KYC framework aligns with BCEAO Instruction No. 003-03-2025.
+
+- [Compliance & doctrine (AMF-UMOA, COSUMAF, SEC Ghana)](https://getinopay.com/fr/compliance)
+- [Public regulatory references](https://getinopay.com/fr/legal/regulatory-references)
+- [Trust center & data residency](https://getinopay.com/fr/trust)
+- [Contractual SLA](https://getinopay.com/fr/sla)
+- [Public audit chain](https://getinopay.com/fr/audit)
+
+## Other Inopay SDKs
+
+The Inopay SDK family — same API surface, five native platforms:
+
+- [`@inopay/web`](https://github.com/fofanay/inopay-web) — TypeScript / Web
+- [`InopaySDK`](https://github.com/fofanay/inopay-ios) — Swift / iOS / macOS
+- [`inopay-android`](https://github.com/fofanay/inopay-android) — Kotlin / Android / JVM
+- [`inopay`](https://github.com/fofanay/inopay-python) — Python (sync, requests-based)
+- [`inopay-java`](https://github.com/fofanay/inopay-java) — Java (sync, java.net.http + Jackson)
+
+## Documentation & support
+
+- [Developer portal](https://getinopay.com/fr/developers) — API, webhooks, sandbox
+- [API reference (OpenAPI 3.1)](https://api.getinopay.com/v1/openapi.json)
+- [Sandbox console](https://getinopay.com/fr/developers/sandbox) — public demo key + 7 endpoints
+- [Portable KYC spec](https://getinopay.com/fr/developers/kyc) — Ed25519, offline-verifiable
+- [Webhooks reference](https://getinopay.com/fr/developers/webhooks)
+- [Changelog](https://getinopay.com/fr/developers/changelog)
+- [Press kit](https://getinopay.com/fr/press-kit) — logo, boilerplates, fact sheet
+
+Need integration help? Email <partner@getinopay.com>.
+
 ## License
 
 MIT — © Inopay
