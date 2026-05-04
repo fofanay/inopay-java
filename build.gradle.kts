@@ -21,7 +21,7 @@ dependencies {
     // api: Jackson types apparaissent indirectement, mais on évite l'exposition.
     // Les consumers manipulent que des POJOs Inopay.
     implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
-    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.16.1")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.21.3")
 
     testImplementation(platform("org.junit:junit-bom:5.10.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
