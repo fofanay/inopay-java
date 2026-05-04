@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Setup Gradle wrapper
-        uses: gradle/actions/setup-gradle@v3
+        uses: gradle/actions/setup-gradle@v6
 
       - name: Build (validates deps resolution)
         run: ./gradlew --no-daemon build
